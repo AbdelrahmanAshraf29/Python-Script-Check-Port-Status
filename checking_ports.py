@@ -36,4 +36,3 @@ for server in servers:
     for port in range(start_port, end_port + 1):
         status = check_port_status(server, port)
         print(f"Port {port}: {status}")
-    print()  # Print an empty line for separation between servers
